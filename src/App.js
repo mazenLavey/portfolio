@@ -1,7 +1,10 @@
+import { useEffect } from 'react';
 import {Route, createRoutesFromElements, createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom';
 import RootLayout from './layouts/route/RootLayout';
 import Home from './pages/home/Home';
 import ProjectDetails from './pages/projects/ProjectDetails';
+import ReactGA from 'react-ga';
+import useTrackTimeOnPage from './hooks/useTrackTimeOnPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -12,8 +15,15 @@ const router = createBrowserRouter(
       <Route path='*' element={<Navigate to='/' replace />} />
     </Route>
   )
-)
+);
+
 function App() {
+  useTrackTimeOnPage();
+
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
       <RouterProvider router={router} />

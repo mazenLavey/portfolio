@@ -3,6 +3,7 @@ import { LanguageContext } from '../../context/LanguageContext';
 import FooterCSS from './styles/Footer.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
+import ReactGA from 'react-ga';
 
 const Footer = ()=>{
     const [copied, setCopied] = useState(false);
@@ -14,7 +15,13 @@ const Footer = ()=>{
         setCopied(true);
         setTimeout(()=>{
             setCopied(false);
-        }, 1000)
+        }, 1000);
+
+        ReactGA.event({
+            category: "Button",
+            action: "Click",
+            label: "copy email address"
+        });
     }
     return (
     <footer className={`${FooterCSS.footer} container`}>
