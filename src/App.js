@@ -17,11 +17,12 @@ const router = createBrowserRouter(
   )
 );
 
+ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
+
 function App() {
   useTrackTimeOnPage();
 
   useEffect(() => {
-    ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
