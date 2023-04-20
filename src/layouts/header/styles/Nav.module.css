@@ -1,0 +1,21 @@
+.wrapper > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.wrapper > ul > li {
+    text-transform: capitalize;
+    color: var(--font-color);
+    font-size: var(--font-600);
+    min-width: 40px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.wrapper > ul > li:not(:last-of-type):hover {
+    opacity: 0.5;
+}

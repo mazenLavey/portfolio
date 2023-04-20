@@ -1,0 +1,32 @@
+.wrapper:hover {
+    opacity: 0.5;
+}
+
+.wrapper > svg {
+    pointer-events: none;
+}
+
+.dropmenu {
+    position: absolute;
+    top: 50px;
+    background-color: var(--elements-color);
+    border-radius: 8px;
+    border: 1px solid var(--elements-color);
+    overflow: hidden;
+}
+
+.dropmenu > li {
+    padding: 5px 10px;
+    color: var(--elements-font-color);
+    font-size: var(--font-400);
+
+}
+
+.dropmenu > li:hover {
+    background-color: var(--main-color);
+    color: var(--font-color);
+}
+
+.dropmenu > li:not(:last-of-type) {
+    border-bottom: 1px solid var(--main-color);
+}

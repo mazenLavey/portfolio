@@ -1,0 +1,22 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+    flex: 1 1 auto;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: var(--font-300);
+    color: var(--elements-font-color);
+    background-color: var(--elements-color);
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,66 @@
+.footer {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.footer > p {
+    margin-bottom: 10px;
+    color: var(--font-color);
+    font-size: var(--font-700);
+    letter-spacing: 5px;
+}
+
+.emailAddress {
+    color: var(--font-color);
+    font-size: var(--font-600);
+    cursor: pointer;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.emailAddress:hover {
+    opacity: 0.7;
+}
+
+.toolTip {
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    background-color: var(--elements-color);
+    color: var(--elements-font-color);
+    padding: 10px 5px;
+    border-radius: 8px 0 8px;
+    font-size: var(--font-200);
+    animation: showtoolTip 0.5s 1 alternate forwards;
+    z-index: -1;
+}
+
+.toolTip::after {
+    content: "";
+    position: absolute;
+    top: -13px;
+    right: 0;
+    border: 6px solid;
+    border-color: transparent transparent var(--elements-color) transparent;
+}
+
+@keyframes showtoolTip {
+    0% {
+        opacity: 0;
+        width: 0;
+        transform: translateY(-20px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    100% {
+        width: 100px;
+    }
+
+}
