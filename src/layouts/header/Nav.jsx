@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { ThemContext } from '../../context/ThemContext';
+import { ThemeContext } from '../../context/ThemeContext';
 import NavCSS from './styles/Nav.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
@@ -9,7 +9,7 @@ import { LanguageContext } from '../../context/LanguageContext';
 import ReactGA from 'react-ga';
 
 const Nav = ()=>{
-    const {isDarkMode, changeThem} = useContext(ThemContext);
+    const {isDarkMode, changeTheme} = useContext(ThemeContext);
     const {lang} = useContext(LanguageContext);
 
     function handleClick() {
@@ -30,7 +30,7 @@ const Nav = ()=>{
                 </a>
             </li>
             <li title={isDarkMode? "Switch to Light Mode" : "Switch to Dark Mode"}>
-                <FontAwesomeIcon icon={isDarkMode? faSun : faMoon} style={{fontSize: "var(--font-600)"}} onClick={changeThem}/>
+                <FontAwesomeIcon icon={isDarkMode? faSun : faMoon} style={{fontSize: "var(--font-600)"}} onClick={changeTheme}/>
             </li>
             <li ><LanguageBtn /></li>
         </ul>

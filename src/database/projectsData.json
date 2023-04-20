@@ -2,7 +2,7 @@
     {
         "en": {
             "title": "showpedia",
-            "description": "Showpedia is a simulation for website where you can find the latest news, updates, future events and releases about games.  In this website, I wanted to demonstrate techniques like modern sliders, swap effects for mobile devices, timers and counters via using only javascript.  Now it's not a multi page website. I would rather build it using React.js to guarantee a fast content downloading and less requests on the server.  The website is fully responsive. FCP and LCP are less than 1 second.",
+            "description": "I created this website by utilizing the TVmaze API, which enabled me to add several useful features such as the ability for users to search for shows, streams, and actor names. With this website, users can easily find information about their favorite shows, actors, and episodes, as well as discover what is currently streaming in multiple countries.\n\nThroughout the development process, I employed a variety of technologies and skills, including filtering unwanted or corrupted data and converting it to the needed format for use in React components, infinite scroll, API requests, swiper modules, intersection observer technique, skeleton elements, React contexts, and React routes. By incorporating these features, I was able to design a website that is both functional and user-friendly.",
             "image": {
                 "src": "./images/showpedia.jpg",
                 "alt": "screenshot of showpedia web page"
@@ -11,11 +11,16 @@
             "links": {
                 "demo": "https://streaming-and-shows-search-engine.netlify.app/",
                 "github": "https://github.com/mazenLavey/streaming-and-TV-shows-search-engine"
+            },
+            "authorCredits": {
+                "name": "TVmaze",
+                "type": "api",
+                "link": "https://www.tvmaze.com/api"
             }
         },
         "ru": {
-            "title": "gaming world",
-            "description": "Gaming World — это шаблон для веб-сайта, где вы можете найти последние новости, обновления, будущие события и выпуски об играх. На этом веб-сайте я хотел продемонстрировать такие методы, как современные слайдеры, swap эффекты для мобильных устройств, таймеры и счетчики, используя только javascript. На данный момент это одностраничный сайт. Я бы предпочел усовершенствовать его с помощью React.js, чтобы гарантировать быструю загрузку контента и меньше запросов на сервер. Веб-сайт полностью адаптивен. FCP и LCP менее 1 секунды.",
+            "title": "showpedia",
+            "description": "Я создал этот веб-сайт, используя TVmaze API, что позволило мне добавить несколько полезных функций, таких как возможность для пользователей искать шоу, потоки и имена актеров. С помощью этого веб-сайта пользователи могут легко найти информацию о своих любимых шоу, актерах и эпизодах, а также узнать, что в данный момент транслируется в нескольких странах.\n\nВ процессе разработки я использовал различные технологии и навыки, включая фильтрацию нежелательных или поврежденных данных и их преобразование в нужный формат для использования в компонентах React, бесконечную прокрутку, запросы API, модули swiper, технику наблюдения за пересечением, скелетные элементы, контексты React и React Route. Используя эти функции, я смог разработать веб-сайт, который является функциональным и удобным для пользователей.",
             "image": {
                 "src": "./images/showpedia.jpg",
                 "alt": "screenshot of showpedia web page"
@@ -24,13 +29,18 @@
             "links": {
                 "demo": "https://streaming-and-shows-search-engine.netlify.app/",
                 "github": "https://github.com/mazenLavey/streaming-and-TV-shows-search-engine"
+            },
+            "authorCredits": {
+                "name": "TVmaze",
+                "type": "api",
+                "link": "https://www.tvmaze.com/api"
             }
         }
     },
     {
         "en": {
             "title": "yellow kitchen",
-            "description": "Yellow Kitchen is a simulation for website where you can find the latest news, updates, future events and releases about games.  In this website, I wanted to demonstrate techniques like modern sliders, swap effects for mobile devices, timers and counters via using only javascript.  Now it's not a multi page website. I would rather build it using React.js to guarantee a fast content downloading and less requests on the server.  The website is fully responsive. FCP and LCP are less than 1 second.",
+            "description": "This website was created for a restaurant that offers delivery services and is fully responsive on all devices.\n\nTo build the website, I used a pre-designed mockup from Behance called 'Yellow kitchen'. During the development process, I leveraged a variety of technologies and skills, including integration of Firebase Realtime Database, API requests, swiper module, intersection observer technique, skeleton elements, React contexts, and form validation. By implementing these features, I was able to create a functional and user-friendly website that meets the needs of the restaurant's customers.",
             "image": {
                 "src": "./images/yellow-kitchen.jpg",
                 "alt": "screenshot of yellow kitchen web page"
@@ -39,11 +49,16 @@
             "links": {
                 "demo": "https://food-delivery-yellow-kitchen.netlify.app/",
                 "github": "https://github.com/mazenLavey/food-delivery"
+            },
+            "authorCredits": {
+                "name": "Shuaib karim",
+                "type": "design",
+                "link": "https://www.behance.net/gallery/158058631/Yellow-Kitchen-Food-Delivery-website-Case-Study-?tracking_source=search_projects%7Cyellow+kitchen+website"
             }
         },
         "ru": {
             "title": "yellow kitchen",
-            "description": "Yellow Kitchen — это шаблон для веб-сайта, где вы можете найти последние новости, обновления, будущие события и выпуски об играх. На этом веб-сайте я хотел продемонстрировать такие методы, как современные слайдеры, swap эффекты для мобильных устройств, таймеры и счетчики, используя только javascript. На данный момент это одностраничный сайт. Я бы предпочел усовершенствовать его с помощью React.js, чтобы гарантировать быструю загрузку контента и меньше запросов на сервер. Веб-сайт полностью адаптивен. FCP и LCP менее 1 секунды.",
+            "description": "Этот веб-сайт был создан для ресторана, который предлагает услуги доставки и полностью отзывчив на всех устройствах.\n\nДля создания веб-сайта я использовал предварительно разработанный макет от Behance, называемый 'Yellow kitchen'. В процессе разработки я использовал различные технологии и навыки, включая интеграцию Firebase Realtime Database, API-запросы, модули swiper, технику intersection observer, элементы скелета, React-контексты и валидацию форм. Благодаря использованию этих функций мне удалось создать функциональный и удобный для пользователей веб-сайт, который соответствует потребностям клиентов ресторана.",
             "image": {
                 "src": "./images/yellow-kitchen.jpg",
                 "alt": "screenshot of yellow kitchen web page"
@@ -52,13 +67,18 @@
             "links": {
                 "demo": "https://food-delivery-yellow-kitchen.netlify.app/",
                 "github": "https://github.com/mazenLavey/food-delivery"
+            },
+            "authorCredits": {
+                "name": "Shuaib karim",
+                "type": "design",
+                "link": "https://www.behance.net/gallery/158058631/Yellow-Kitchen-Food-Delivery-website-Case-Study-?tracking_source=search_projects%7Cyellow+kitchen+website"
             }
         }
     },
     {
         "en": {
             "title": "gaming world",
-            "description": "Gaming World is a simulation for website where you can find the latest news, updates, future events and releases about games.  In this website, I wanted to demonstrate techniques like modern sliders, swap effects for mobile devices, timers and counters via using only javascript.  Now it's not a multi page website. I would rather build it using React.js to guarantee a fast content downloading and less requests on the server.  The website is fully responsive. FCP and LCP are less than 1 second.",
+            "description": "I built this website template from scratch as part of learning process to showcase my skills in front-end development.\n\nThe website features the latest news, updates, future events, and releases about games and incorporates modern techniques such as sliders, swap effects for mobile devices, timers, and counters, all implemented using only JavaScript. In designing this website, I gained valuable experience in using these techniques to create a fully responsive and visually appealing website.",
             "image": {
                 "src": "./images/gaming_world.jpg",
                 "alt": "screenshot of gaming world web page"
@@ -67,11 +87,12 @@
             "links": {
                 "demo": "https://mazenlavey.github.io/gaming-world/",
                 "github": "https://github.com/mazenLavey/gaming-world"
-            }
+            },
+            "authorCredits": null
         },
         "ru": {
             "title": "gaming world",
-            "description": "Gaming World — это шаблон для веб-сайта, где вы можете найти последние новости, обновления, будущие события и выпуски об играх. На этом веб-сайте я хотел продемонстрировать такие методы, как современные слайдеры, swap эффекты для мобильных устройств, таймеры и счетчики, используя только javascript. На данный момент это одностраничный сайт. Я бы предпочел усовершенствовать его с помощью React.js, чтобы гарантировать быструю загрузку контента и меньше запросов на сервер. Веб-сайт полностью адаптивен. FCP и LCP менее 1 секунды.",
+            "description": "Я создал этот шаблон веб-сайта с нуля в процессе обучения, чтобы продемонстрировать свои навыки в разработке фронт-энда.\n\nНа сайте представлены последние новости, обновления, предстоящие мероприятия и релизы игр, а также использованы современные технологии, такие как слайдеры, эффекты переключения для мобильных устройств, таймеры и счетчики, реализованные с помощью JavaScript. Создавая этот веб-сайт, я получил ценный опыт использования этих техник для создания полностью адаптивного и привлекательного визуально сайта",
             "image": {
                 "src": "./images/gaming_world.jpg",
                 "alt": "screenshot of gaming world web page"
@@ -80,13 +101,14 @@
             "links": {
                 "demo": "https://mazenlavey.github.io/gaming-world/",
                 "github": "https://github.com/mazenLavey/gaming-world"
-            }
+            },
+            "authorCredits": null
         }
     },
     {
         "en": {
             "title": "Lucky Shrub",
-            "description": "This project was one of my assignments for the Meta Front-End Developer Professional Certification on coursera. The goal of the project was to use what I had learned in HTML and CSS through the course. This website is a simulation for any possible small business website, which shows a brief about the owners, the services provided, projects, and a way to contact them. The website is fully responsive. FCP and LCP are less than 1 second.",
+            "description": "This project was one of my assignments for the Meta Front-End Developer Professional Certification on Coursera.\n\nThe goal of the project was to utilize what I had learned in HTML, CSS, and JS throughout the course. The website is a template for a small local business website that provides a brief overview of the owners, services offered, projects, and a contact form. The website is fully responsive, includes theme modes, detects the user's preferred language, and allows users to switch between languages.",
             "image": {
                 "src": "./images/lucky_shrub.jpg",
                 "alt": "screenshot of Lucky Shrub web page"
@@ -95,11 +117,12 @@
             "links": {
                 "demo": "https://mazenlavey.github.io/lucky-shrub/",
                 "github": "https://github.com/mazenLavey/lucky-shrub"
-            }
+            },
+            "authorCredits": null
         },
         "ru": {
             "title": "Lucky Shrub",
-            "description": "Этот проект был одним из моих заданий для прохождения курса Meta Front-End Developer Professional Certification на платформе Coursera. Цель проекта состояла в том, чтобы применить изученные мной в ходе обучения HTML и CSS. Этот проект является шаблоном для веб-сайта малого бизнеса, который показывает краткую информацию о владельцах, предоставляемых услугах, проектах и способах связи с ними. Веб-сайт полностью адаптивен. FCP и LCP менее 1 секунды.",
+            "description": "Этот проект был одним из моих заданий для профессиональной сертификации Meta Front-End Developer на Coursera.\n\nЦелью проекта было использовать то, что я изучал в HTML, CSS и JS во время курса. Этот веб-сайт является шаблоном для небольшого местного бизнеса, который представляет краткое описание о владельцев, услуг, проектов и способа связаться с ними. Веб-сайт полностью адаптивен, имеет режимы тем, определяет наиболее используемый язык пользователя и позволяет выбирать между языками",
             "image": {
                 "src": "./images/lucky_shrub.jpg",
                 "alt": "screenshot of Lucky Shrub web page"
@@ -108,7 +131,8 @@
             "links": {
                 "demo": "https://mazenlavey.github.io/lucky-shrub/",
                 "github": "https://github.com/mazenLavey/lucky-shrub"
-            }
+            },
+            "authorCredits": null
         }
     }
 ]

@@ -1,0 +1,15 @@
+.wrapper > h4 {
+    text-transform: capitalize;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--font-300);
+    margin-top: 10px;
+}
+
+.credits:hover {
+    opacity: 0.5;
+}

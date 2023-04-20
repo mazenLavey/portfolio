@@ -39,6 +39,7 @@
     line-height: 1.4;
     font-size: var(--font-300);
     color: var(--font-color);
+    white-space: break-spaces;
 }
 
 .info > ul > li {

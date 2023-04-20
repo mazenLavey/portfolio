@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './normalize.css';
 import './index.css';
 import App from './App';
-import { ThemProvider } from './context/ThemContext';
+import { ThemeProvider } from './context/ThemeContext';
 import { LanguageProvider } from './context/LanguageContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ThemProvider>
+    <ThemeProvider>
       <LanguageProvider>
         <App />
       </LanguageProvider>
-    </ThemProvider>
+    </ThemeProvider>
   </React.StrictMode>
 );
 

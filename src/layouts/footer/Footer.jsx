@@ -3,12 +3,13 @@ import { LanguageContext } from '../../context/LanguageContext';
 import FooterCSS from './styles/Footer.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
-import ReactGA from 'react-ga';
+import useMetrics from '../../hooks/useMetrics';
 
 const Footer = ()=>{
     const [copied, setCopied] = useState(false);
-
     const {lang} = useContext(LanguageContext);
+    const {sendMetrics} = useMetrics();
+
 
     function handleClick() {
         window.navigator.clipboard.writeText("mazen.fp@gmail.com");
@@ -17,12 +18,9 @@ const Footer = ()=>{
             setCopied(false);
         }, 1000);
 
-        ReactGA.event({
-            category: "Button",
-            action: "Click",
-            label: "copy email address"
-        });
-    }
+        sendMetrics("Button", "Click", "copy email address");
+    };
+
     return (
     <footer className={`${FooterCSS.footer} container`}>
             <p>{lang === "en"? "Connect with Me" : "Свяжитесь со мной"}</p>

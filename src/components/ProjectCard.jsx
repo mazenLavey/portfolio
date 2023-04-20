@@ -6,6 +6,7 @@ import { nanoid } from 'nanoid';
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import { useInView } from 'react-intersection-observer';
+import AuthorCredits from './AuthorCredits';
 
 const ProjectCard = ({data, lang})=> {
     const [imgIsLoaded, setImgIsLoaded] = useState(false);
@@ -32,6 +33,8 @@ const ProjectCard = ({data, lang})=> {
         <article className={ProjectCardCSS.info}>
             <h3>{data.title}</h3>
             <p data-multilang="gamingWorld">{data.description}</p>
+
+            {data.authorCredits && <AuthorCredits credits={data.authorCredits} />}
 
             <div className={ProjectCardCSS.tools}>
                 <h4 data-multilang="tools">{lang === "en"? "Tools": "Инструменты"}:</h4>

@@ -2,15 +2,14 @@ import LinkButtonCSS from './LinkButton.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faSatelliteDish } from '@fortawesome/free-solid-svg-icons';
-import ReactGA from 'react-ga';
+import useMetrics from '../hooks/useMetrics';
+
 
 const LinkButton = ({text, link, icon = ""})=>{
+    const {sendMetrics} = useMetrics();
+
     function handleClick() {
-        ReactGA.event({
-            category: 'Button',
-            action: 'Click',
-            label: link,
-        })
+        sendMetrics("Button", "Click", link);
     };
 
     return (

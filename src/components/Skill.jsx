@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5 , faCss3Alt , faJsSquare, faSass, faReact, faFigma, faUncharted } from '@fortawesome/free-brands-svg-icons';
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 import SkillCSS from './Skill.module.css';
 
 const Skill = ({skill})=>{
@@ -23,6 +24,9 @@ const Skill = ({skill})=>{
                 :
                 skill === "Figma"?
                 <FontAwesomeIcon icon={faFigma } style={{color: "#9d56f7"}} />
+                :
+                skill === "API"?
+                <FontAwesomeIcon icon={faCodeBranch} style={{color: "#0057ff"}}/>
                 :
                 <FontAwesomeIcon icon={faUncharted } style={{color: "#f74907"}} />
                 
