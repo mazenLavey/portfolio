@@ -27,11 +27,8 @@
 }
 
 .certificate {
-    /* position: absolute; */
-    /* top: 70px; */
-    /* right: 20px; */
-    transition: 0.3s;
     margin-left: auto;
+    transition: 0.3s;
 }
 
 .certificate img {
@@ -55,12 +52,9 @@
 }
 
 .arrow {
-    /* position: absolute; */
-    /* bottom: 20px; */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .arrow > p {
