@@ -16,9 +16,9 @@ const Landing = ()=> {
         </header>
         <p className={LandingCSS.about}>
             {lang === "en" ? 
-                "I am a front-end developer with a passion for web development. I have solid skills in HTML, CSS, JavaScript, and React, and have completed the Meta Front-End Developer certification program on Coursera. I continue to enhance my skills through free online resources and hands-on experience with Figma, Sass, Google Analytics, and Firebase. I am always eager to learn and grow as a developer."
+                "I am a front-end developer with a passion for web development. I have completed the Meta Front-End Developer certification program on Coursera. I have solid skills in HTML, CSS, JavaScript, and React. Moreover, I have hands-on experience with Figma, Sass, Google Analytics, and Firebase. I continue to enhance my skills through free online resources and I am always eager to learn and grow as a developer."
                 :
-                "Я являюсь фронтенд-разработчиком с увлечением к веб-разработке. У меня крепкие навыки в HTML, CSS, JavaScript и React, а также я прошел программу сертификации Meta Front-End Developer на Coursera. Я продолжаю улучшать свои навыки через бесплатные онлайн-ресурсы и практический опыт работы с Figma, Sass, Google Analytics и Firebase. Я всегда готов учиться и расти как разработчик."
+                "Я являюсь фронтенд-разработчиком. Прошел программу сертификации Meta Front-End Developer на Coursera. Обладаю навыками работы с HTML, CSS, JavaScript и React. Более того, имею практический опыт работы с Figma, Sass, Google Analytics и Firebase. В настоящее время я продолжаю улучшать свои знания при помощи открытых онлайн-ресурсов.  Готов учиться и расти как разработчик."
             }
         </p>
 
