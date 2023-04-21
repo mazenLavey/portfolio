@@ -11,7 +11,7 @@ const Landing = ()=> {
     return (
     <section className={`${LandingCSS.wrapper} container`}>
         <header className={LandingCSS.header}>
-            <h1>{lang === "en"? `Joy through simple design.` : "Радость через простой дизайн."}</h1>
+            <h1>{lang === "en"? `Joy through \nsimple design.` : `Радость через \nпростой дизайн.`}</h1>
             <span>{lang === "en"? "Mazen Al-Madhage / Front-end Developer": "Аль-Мадхаджи Мазен / Front-end разработчик"}</span>
         </header>
         <p className={LandingCSS.about}>

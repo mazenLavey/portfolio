@@ -1,21 +1,27 @@
 .wrapper {
     display: flex;
     flex-flow: column nowrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 20px;
-    height: 100vh;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 60px;
+    height: calc(100vh - 60px);
     position: relative;
 }
 
-.header>h1 {
+.header > h1 {
     font-size: var(--font-xl);
     color: var(--font-color);
     margin-bottom: 20px;
     animation: changeColor 10s infinite alternate both;
 }
 
-.header>span {
+@media (max-width: 575px) {
+    .header>h1 {
+        white-space: break-spaces;
+    }
+}
+
+.header > span {
     color: var(--font-color);
     font-size: var(--font-700);
 }
@@ -45,6 +51,7 @@
 .about {
     color: var(--font-color);
     font-size: var(--font-300);
+    text-align: justify;
 }
 
 .arrow {
@@ -56,14 +63,14 @@
     margin: 0 auto;
 }
 
-.arrow>p {
+.arrow > p {
     color: var(--font-color);
     font-size: var(--font-400);
     text-transform: capitalize;
     font-weight: bold;
 }
 
-.arrow>svg {
+.arrow > svg {
     animation: arrow 0.5s infinite alternate both;
     color: var(--font-color);
 }
