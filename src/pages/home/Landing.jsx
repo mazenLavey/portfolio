@@ -26,7 +26,7 @@ const Landing = ()=> {
             <CertificateBadge />
         </span>
 
-        <a className={LandingCSS.arrow} href="#projects">
+        <a className={LandingCSS.arrow} href="#projects" role='button'>
             <p>{lang === "en"? "some projects" : "Проекты"}</p>
             <FontAwesomeIcon icon={faAnglesDown} />
         </a>

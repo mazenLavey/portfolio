@@ -3,7 +3,7 @@
     flex-flow: column nowrap;
     align-items: flex-start;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     height: 100vh;
     position: relative;
 }
@@ -21,10 +21,11 @@
 }
 
 .certificate {
-    position: absolute;
-    top: 70px;
-    right: 20px;
+    /* position: absolute; */
+    /* top: 70px; */
+    /* right: 20px; */
     transition: 0.3s;
+    margin-left: auto;
 }
 
 .certificate img {
@@ -47,11 +48,12 @@
 }
 
 .arrow {
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
+    /* position: absolute; */
+    /* bottom: 20px; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
     text-align: center;
+    margin: 0 auto;
 }
 
 .arrow>p {
