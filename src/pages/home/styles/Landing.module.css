@@ -1,18 +1,79 @@
 .wrapper {
-    height: 100vh;
     display: flex;
-    flex-flow: row nowrap;
-    gap: 10px;
-    justify-content: space-between;
-    align-items: center;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    height: 100vh;
     position: relative;
 }
 
-.wrapper h1 {
+.header>h1 {
     font-size: var(--font-xl);
     color: var(--font-color);
     margin-bottom: 20px;
     animation: changeColor 10s infinite alternate both;
+}
+
+.header>span {
+    color: var(--font-color);
+    font-size: var(--font-700);
+}
+
+.certificate {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    transition: 0.3s;
+}
+
+.certificate img {
+    width: 90px;
+}
+
+@media (min-width: 768px) {
+    .certificate img {
+        width: 160px;
+    }
+}
+
+.certificate:hover {
+    transform: scale(1.05);
+}
+
+.about {
+    color: var(--font-color);
+    font-size: var(--font-300);
+}
+
+.arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.arrow>p {
+    color: var(--font-color);
+    font-size: var(--font-400);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.arrow>svg {
+    animation: arrow 0.5s infinite alternate both;
+    color: var(--font-color);
+}
+
+@keyframes arrow {
+    from {
+        transform: translateY(10px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
 }
 
 @keyframes changeColor {
@@ -38,52 +99,5 @@
 
     100% {
         color: rgb(255, 227, 71);
-    }
-}
-
-.certificate {
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    transition: 0.3s;
-}
-
-.certificate:hover {
-    transform: scale(1.05);
-}
-
-.wrapper p {
-    color: var(--font-color);
-    font-size: var(--font-700);
-}
-
-.arrow {
-    position: absolute;
-    bottom: 80px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-}
-
-.arrow>p {
-    color: var(--font-color);
-    font-size: var(--font-400);
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-}
-
-.arrow>svg {
-    animation: arrow 0.5s infinite alternate both;
-    color: var(--font-color);
-}
-
-@keyframes arrow {
-    from {
-        transform: translateY(10px);
-    }
-
-    to {
-        transform: translateY(0px);
     }
 }
