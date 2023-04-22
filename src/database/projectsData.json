@@ -2,7 +2,7 @@
     {
         "en": {
             "title": "showpedia",
-            "description": "I created this website by utilizing the TVmaze API. With this website, users can easily find information about their favorite shows, actors, and episodes, as well as discover what is currently streaming in multiple countries.\n\nThroughout the development process, I employed a variety of technologies and skills, including filtering unwanted or corrupted data and converting it to the needed format for use in React components, infinite scroll, API requests, swiper modules, intersection observer technique, skeleton elements, React contexts, and React routes. By incorporating these features, I was able to design a website that is both functional and user-friendly.",
+            "description": "I created this website by utilizing the TVmaze API. With this website users can easily find information about their favorite shows, actors, and episodes, as well as discover what is currently streaming in multiple countries.\n\nThroughout the development process, I employed a variety of technologies and skills, including filtering unwanted or corrupted data and converting it to the needed format for use in React components, infinite scroll, API requests, swiper modules, intersection observer technique, skeleton elements, React contexts, and React routes. By incorporating these features, I was able to design a website that is both functional and user-friendly.",
             "image": {
                 "src": "./images/showpedia.jpg",
                 "alt": "screenshot of showpedia web page"
@@ -40,7 +40,7 @@
     {
         "en": {
             "title": "yellow kitchen",
-            "description": "This website was created for a restaurant that offers delivery services. It is fully responsive on all devices.\n\nTo build the website, I used Figma pre-designed mockup from Behance called 'Yellow kitchen'. During the development process, I leveraged a variety of technologies and skills, including integration of Firebase Realtime Database, API requests, swipe module, intersection observer technique, skeleton elements, React contexts, and form validation. By implementing these features, I was able to create a functional and user-friendly website that meets the needs of the restaurant's customers.",
+            "description": "This is a personal project for a restaurant that offers delivery services. To build the website, I used Figma pre-designed mockup from Behance called 'Yellow kitchen' and turned it to a fully functional Single-page application.\n\nDuring the development process, I leveraged a variety of technologies and skills, including integration of Firebase Realtime Database, API requests, swipe module, intersection observer technique, skeleton elements, React contexts, and form validation. By implementing these features, I was able to create a functional and user-friendly website that meets the needs of the restaurant's customers.",
             "image": {
                 "src": "./images/yellow-kitchen.jpg",
                 "alt": "screenshot of yellow kitchen web page"
@@ -58,7 +58,7 @@
         },
         "ru": {
             "title": "yellow kitchen",
-            "description": "Этот веб-сайт был создан для ресторана, который предлагает услуги доставки. Сайт полностью отзывчив на всех устройствах.\n\nДля создания веб-сайта я использовал предварительно разработанный Figma макет от Behance, называемый 'Yellow kitchen'. В процессе разработки я использовал различные технологии и навыки, включая интеграцию Firebase Realtime Database, API-запросы, модули swipe, технику intersection observer, элементы скелета, React-контексты и валидацию форм. Благодаря использованию этих функций мне удалось создать функциональный и удобный для пользователей веб-сайт, который соответствует потребностям клиентов ресторана.",
+            "description": "Это персональный проект для ресторана, предлагающего услуги доставки. Для создания веб-сайта я использовал предварительно разработанный Figma макет от Behance, называемый 'Yellow kitchen'. и превратил его в полнофункциональное Single-page приложение.\n\nВ процессе разработки я использовал различные технологии и навыки, включая интеграцию Firebase Realtime Database, API-запросы, модули swipe, технику intersection observer, элементы скелета, React-контексты и валидацию форм. Благодаря использованию этих функций мне удалось создать функциональный и удобный для пользователей веб-сайт, который соответствует потребностям клиентов ресторана.",
             "image": {
                 "src": "./images/yellow-kitchen.jpg",
                 "alt": "screenshot of yellow kitchen web page"
@@ -78,7 +78,7 @@
     {
         "en": {
             "title": "gaming world",
-            "description": "I built this website template from scratch as part of learning process to showcase my skills in front-end development.\n\nThe website features the latest news, updates, future events, and releases about games and incorporates modern techniques such as sliders, swipe for mobile devices, timers, and counters, all implemented using only JavaScript. In designing this website, I gained valuable experience in using these techniques to create a fully responsive and visually appealing website.",
+            "description": "I built this website template from scratch as part of learning process to showcase my skills in front-end development.\n\nThe goal of the project was to build a website that features the latest news, updates, future events, and releases about games.\n\nI incorporates modern techniques such as sliders, swipe for mobile devices, timers, and counters, all implemented using only JavaScript. In designing this website, I gained valuable experience in using these techniques to create a fully responsive and visually appealing website.",
             "image": {
                 "src": "./images/gaming_world.jpg",
                 "alt": "screenshot of gaming world web page"
@@ -92,7 +92,7 @@
         },
         "ru": {
             "title": "gaming world",
-            "description": "Я создал этот шаблон веб-сайта с нуля в процессе обучения, чтобы продемонстрировать свои навыки в разработке фронт-энда.\n\nНа сайте представлены последние новости, обновления, предстоящие мероприятия и релизы игр. В процессе создания сайта были использованы современные технологии, такие как слайдеры, свайпы, таймеры и счетчики, реализованные с помощью JavaScript. Создавая этот веб-сайт, я получил ценный опыт использования этих техник для создания полностью адаптивного и привлекательного визуально сайта",
+            "description": "Я создал этот шаблон веб-сайта с нуля в процессе обучения, чтобы продемонстрировать свои навыки в разработке фронт-энда.\n\nЦель проекта состояла в том, чтобы создать веб-сайт, на котором будут представлены последние новости, обновления, будущие события и выпуски об играх.\n\nВ процессе создания сайта были использованы современные технологии, такие как слайдеры, свайпы, таймеры и счетчики, реализованные с помощью JavaScript. Создавая этот веб-сайт, я получил ценный опыт использования этих техник для создания полностью адаптивного и привлекательного визуально сайта",
             "image": {
                 "src": "./images/gaming_world.jpg",
                 "alt": "screenshot of gaming world web page"
