@@ -3,7 +3,7 @@ import {Route, createRoutesFromElements, createBrowserRouter, RouterProvider, Na
 import RootLayout from './layouts/route/RootLayout';
 import Home from './pages/home/Home';
 import ProjectDetails from './pages/projects/ProjectDetails';
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 import useTrackTimeOnPage from './hooks/useTrackTimeOnPage';
 
 const router = createBrowserRouter(
@@ -17,13 +17,17 @@ const router = createBrowserRouter(
   )
 );
 
-ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
+ReactGA.initialize("G-9Z5MFQENZ8");
 
 function App() {
   useTrackTimeOnPage();
-
+  
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+      title: window.location.search
+    });
   }, []);
 
   return (

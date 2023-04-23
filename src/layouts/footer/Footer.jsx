@@ -18,7 +18,7 @@ const Footer = ()=>{
             setCopied(false);
         }, 1000);
 
-        sendMetrics("Button", "Click", "copy email address");
+        sendMetrics("Button", "onClick", "copy email address");
     };
 
     return (

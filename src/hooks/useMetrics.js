@@ -1,7 +1,7 @@
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 
 const useMetrics= ()=>{
-    function sendMetrics(category = "", action = "", label = "") {
+    function sendMetrics(category, action, label) {
 
         if (category && action && label) {
             ReactGA.event({

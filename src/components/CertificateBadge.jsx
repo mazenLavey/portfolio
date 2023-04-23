@@ -5,7 +5,7 @@ const CertificateBadge = ()=>{
     const {sendMetrics} = useMetrics();
 
     function handleClick() {
-        sendMetrics("Button", "Click", "meta front-end developer certificate");
+        sendMetrics("Button", "onClick", "meta certificate");
     };
 
     return (

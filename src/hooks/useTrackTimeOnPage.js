@@ -1,10 +1,9 @@
 import { useEffect } from 'react';
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 
 const useTrackTimeOnPage = () => {
 
   useEffect(()=>{
-      ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
       const startTime = new Date().getTime(); //time in milliseconds
     
       const trackFunction = setInterval(() => {

@@ -9,7 +9,7 @@ const LinkButton = ({text, link, icon = ""})=>{
     const {sendMetrics} = useMetrics();
 
     function handleClick() {
-        sendMetrics("Button", "Click", link);
+        sendMetrics("Button", "onClick", link);
     };
 
     return (

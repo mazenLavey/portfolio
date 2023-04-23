@@ -6,19 +6,16 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import LanguageBtn from '../../components/LanguageBtn';
 import { LanguageContext } from '../../context/LanguageContext';
-import ReactGA from 'react-ga';
+import useMetrics from '../../hooks/useMetrics';
 
 const Nav = ()=>{
     const {isDarkMode, changeTheme} = useContext(ThemeContext);
     const {lang} = useContext(LanguageContext);
+    const {sendMetrics} = useMetrics();
 
     function handleClick() {
-        ReactGA.event({
-            category: "Button",
-            action: "Click",
-            label: "linkedin link"
-        })
-    }
+        sendMetrics("Button", "onClick", "linkedin portfolio");
+    };
     
     return (
     <nav className={NavCSS.wrapper}>
