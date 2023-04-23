@@ -9,7 +9,7 @@ const CertificateBadge = ()=>{
     };
 
     return (
-        <a href='https://www.credly.com/badges/3f87ed09-40eb-48ab-94a8-97a4d42c3645/public_url' target='_blank' rel="noreferrer" onClick={handleClick}>
+        <a href='https://www.coursera.org/account/accomplishments/professional-cert/8SLR95GYSYUB' target='_blank' rel="noreferrer" onClick={handleClick}>
             <img src={badge} alt="meta front-end developer certificate"/>
         </a>
     );
