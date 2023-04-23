@@ -6,12 +6,21 @@ const ThemeProvider = ({children})=>{
     const [isDarkMode, setIsDarkMode] = useState(false);
 
     useEffect(()=>{
-        const themeModeIsDark = localStorage.getItem("darkMode_portfolio");
-        if(themeModeIsDark && themeModeIsDark === "true") {
+        function toDark() {
             setIsDarkMode(() => {
                 switchTheme(true);
                 return true;
             });
+        }
+        // check local storage for color theme
+        const themeModeIsDark = localStorage.getItem("darkMode_portfolio");
+        // check browser for color theme 
+        const favTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if(themeModeIsDark && themeModeIsDark === "true") {
+            toDark();
+        } else if (favTheme && themeModeIsDark === null) {
+            toDark();
         };
     }, []);
 
