@@ -17,7 +17,7 @@ const router = createBrowserRouter(
   )
 );
 
-ReactGA.initialize("G-9Z5MFQENZ8");
+ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
 
 function App() {
   useTrackTimeOnPage();
