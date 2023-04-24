@@ -9,7 +9,7 @@ const CertificateBadge = ()=>{
     };
 
     return (
-        <a href='https://coursera.org/share/a7a7eb18613dbeaf38290cb606c76964' target='_blank' rel="noreferrer" onClick={handleClick}>
+        <a href='https://www.coursera.org/account/accomplishments/specialization/certificate/8SLR95GYSYUB' target='_blank' rel="noreferrer" onClick={handleClick}>
             <img src={badge} alt="meta front-end developer certificate"/>
         </a>
     );
