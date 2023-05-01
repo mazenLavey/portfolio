@@ -22,7 +22,7 @@ const Nav = ()=>{
         <ul>
             <li><a href="#projects" rel="noreferrer" title="Go to Projects Section" >{lang === "en"? "projects": "Проекты"}</a></li>
             <li>
-                <a href="https://www.linkedin.com/in/mazen-al-madhage-569886269/" rel="noreferrer" target="_blank" title="Go to Mazen's Linkedin" onClick={handleClick}>
+                <a href="https://www.linkedin.com/in/mazen-al-madhage" rel="noreferrer" target="_blank" title="Go to Mazen's Linkedin" onClick={handleClick}>
                     <FontAwesomeIcon icon={faLinkedin} style={{fontSize: "var(--font-600)"}}/>
                 </a>
             </li>
