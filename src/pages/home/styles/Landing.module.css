@@ -1,7 +1,7 @@
 .wrapper {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 10px;
     margin-top: 60px;
     height: calc(100vh - 60px);
@@ -9,14 +9,15 @@
 }
 
 .header > h1 {
-    font-size: var(--font-xl);
+    font-size: var(--font-800);
     color: var(--font-color);
     margin-bottom: 20px;
+    text-transform: capitalize;
     animation: changeColor 10s infinite alternate both;
 }
 
 @media (max-width: 575px) {
-    .header>h1 {
+    .header > h1 {
         white-space: break-spaces;
     }
 }

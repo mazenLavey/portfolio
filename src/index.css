@@ -35,6 +35,7 @@
   --font-400: 1rem;
   --font-600: 1.25rem;
   --font-700: 2rem;
+  --font-800: 2.5rem;
   --font-xl: 3rem;
 }
 
@@ -44,6 +45,7 @@
       --font-400: 0.9rem;
       --font-600: 1rem;
       --font-700: 1.5rem;
+      --font-800: 2rem;
       --font-xl: 2.2rem;
   }
 }
