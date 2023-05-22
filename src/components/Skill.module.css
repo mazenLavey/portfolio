@@ -1,3 +1,10 @@
-.wrapper > svg {
-    margin-right: 10px;
+.wrapper  {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wrapper > img {
+    display: inline-block;
+    width: 15px;
 }

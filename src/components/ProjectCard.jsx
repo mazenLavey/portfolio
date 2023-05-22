@@ -33,16 +33,13 @@ const ProjectCard = ({data, lang})=> {
         <article className={ProjectCardCSS.info}>
             <h3>{data.title}</h3>
             <p data-multilang="gamingWorld">{data.description}</p>
-
             {data.authorCredits && <AuthorCredits credits={data.authorCredits} />}
-
             <div className={ProjectCardCSS.tools}>
                 <h4 data-multilang="tools">{lang === "en"? "Tools": "Инструменты"}:</h4>
                 <ul>
                     {data.tools.map(el => <li key={nanoid()}><Skill skill={el}/></li>)}
                 </ul>
             </div>
-
             <div className={ProjectCardCSS.links}>
                 <LinkButton text={lang === "en"? "view code" : "Посмотреть Код"} link={data.links.github} icon={"github"}/>
                 <LinkButton text={lang === "en"? "live demo" : "Демо Демонстрация"} link={data.links.demo} icon={"live"}/>
