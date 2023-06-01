@@ -41,16 +41,18 @@
 
 @media (max-width: 575px) {
   :root {
-      --font-300: 0.75rem;
-      --font-400: 0.9rem;
-      --font-600: 1rem;
-      --font-700: 1.5rem;
-      --font-800: 2rem;
-      --font-xl: 2.2rem;
+    --font-300: 0.75rem;
+    --font-400: 0.9rem;
+    --font-600: 1rem;
+    --font-700: 1.5rem;
+    --font-800: 2rem;
+    --font-xl: 2.2rem;
   }
 }
 
-*, *::after, ::before{
+*,
+*::after,
+::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -94,10 +96,10 @@ a.active {
 }
 
 [type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration { 
-  -webkit-appearance: none; 
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
   appearance: none;
-  margin: 0; 
+  margin: 0;
 }
 
 h1 {
@@ -131,34 +133,55 @@ h4 {
 
 @media (max-width: 575px) {
   .container {
-      width: 100%;
+    width: 100%;
   }
 }
+
 @media (min-width: 576px) {
   .container {
-      max-width: 540px;
+    max-width: 540px;
   }
 }
+
 @media (min-width: 768px) {
   .container {
-      max-width: 720px;
+    max-width: 720px;
   }
 }
+
 @media (min-width: 992px) {
   .container {
-      max-width: 960px;
+    max-width: 960px;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
-      max-width: 1140px;
+    max-width: 1140px;
   }
 }
+
 @media (min-width: 1400px) {
   .container {
-      max-width: 1320px;
+    max-width: 1320px;
   }
 }
+
 /* end global */
 
+/* start animation */
+.fadeIn-animation {
+  animation: fadeIn 2s 1 alternate forwards;
+}
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* end animation */

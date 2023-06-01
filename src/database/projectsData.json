@@ -7,7 +7,12 @@
                 "src": "./images/plan_master.png",
                 "alt": "screenshot of plan master web page"
             },
-            "tools": ["Typescript", "NEXT.js", "HTML", "SCSS"],
+            "tools": [
+                "Typescript",
+                "NEXT.js",
+                "HTML",
+                "SCSS"
+            ],
             "links": {
                 "demo": "https://planmaster.netlify.app",
                 "github": "https://github.com/mazenLavey/PlanMaster"
@@ -21,7 +26,12 @@
                 "src": "./images/plan_master.png",
                 "alt": "screenshot of plan_master web page"
             },
-            "tools": ["Typescript", "NEXT.js", "HTML", "SCSS"],
+            "tools": [
+                "Typescript",
+                "NEXT.js",
+                "HTML",
+                "SCSS"
+            ],
             "links": {
                 "demo": "https://planmaster.netlify.app",
                 "github": "https://github.com/mazenLavey/PlanMaster"
@@ -37,7 +47,14 @@
                 "src": "./images/showpedia.jpg",
                 "alt": "screenshot of showpedia web page"
             },
-            "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "API"],
+            "tools": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Firebase",
+                "API"
+            ],
             "links": {
                 "demo": "https://streaming-and-shows-search-engine.netlify.app/",
                 "github": "https://github.com/mazenLavey/streaming-and-TV-shows-search-engine"
@@ -55,7 +72,14 @@
                 "src": "./images/showpedia.jpg",
                 "alt": "screenshot of showpedia web page"
             },
-            "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "API"],
+            "tools": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Firebase",
+                "API"
+            ],
             "links": {
                 "demo": "https://streaming-and-shows-search-engine.netlify.app/",
                 "github": "https://github.com/mazenLavey/streaming-and-TV-shows-search-engine"
@@ -75,7 +99,15 @@
                 "src": "./images/yellow-kitchen.jpg",
                 "alt": "screenshot of yellow kitchen web page"
             },
-            "tools": ["HTML", "CSS", "JavaScript", "React", "Figma", "Firebase", "API"],
+            "tools": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Figma",
+                "Firebase",
+                "API"
+            ],
             "links": {
                 "demo": "https://food-delivery-yellow-kitchen.netlify.app/",
                 "github": "https://github.com/mazenLavey/food-delivery"
@@ -93,7 +125,15 @@
                 "src": "./images/yellow-kitchen.jpg",
                 "alt": "screenshot of yellow kitchen web page"
             },
-            "tools": ["HTML", "CSS", "JavaScript", "React", "Figma", "Firebase", "API"],
+            "tools": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Figma",
+                "Firebase",
+                "API"
+            ],
             "links": {
                 "demo": "https://food-delivery-yellow-kitchen.netlify.app/",
                 "github": "https://github.com/mazenLavey/food-delivery"
@@ -103,66 +143,6 @@
                 "type": "design",
                 "link": "https://www.behance.net/gallery/158058631/Yellow-Kitchen-Food-Delivery-website-Case-Study-?tracking_source=search_projects%7Cyellow+kitchen+website"
             }
-        }
-    },
-    {
-        "en": {
-            "title": "gaming world",
-            "description": "I built this website template from scratch as part of learning process to showcase my skills in front-end development.\n\nI incorporates modern techniques such as sliders, swipe for mobile devices, timers, and counters, all implemented using only JavaScript. In designing this website, I gained valuable experience in using these techniques to create a fully responsive and visually appealing website.",
-            "image": {
-                "src": "./images/gaming_world.jpg",
-                "alt": "screenshot of gaming world web page"
-            },
-            "tools": ["HTML", "CSS", "JavaScript"],
-            "links": {
-                "demo": "https://mazenlavey.github.io/gaming-world/",
-                "github": "https://github.com/mazenLavey/gaming-world"
-            },
-            "authorCredits": null
-        },
-        "ru": {
-            "title": "gaming world",
-            "description": "Я создал этот шаблон веб-сайта с нуля в процессе обучения, чтобы продемонстрировать свои навыки в разработке фронт-энда.\n\nВ процессе создания сайта были использованы современные технологии, такие как слайдеры, свайпы, таймеры и счетчики, реализованные с помощью JavaScript. Создавая этот веб-сайт, я получил ценный опыт использования этих техник для создания полностью адаптивного и привлекательного визуально сайта",
-            "image": {
-                "src": "./images/gaming_world.jpg",
-                "alt": "screenshot of gaming world web page"
-            },
-            "tools": ["HTML", "CSS", "JavaScript"],
-            "links": {
-                "demo": "https://mazenlavey.github.io/gaming-world/",
-                "github": "https://github.com/mazenLavey/gaming-world"
-            },
-            "authorCredits": null
-        }
-    },
-    {
-        "en": {
-            "title": "Lucky Shrub",
-            "description": "This website is a template for a small local business website that provides a brief overview of the owners, services offered, projects, and a contact form. The website is fully responsive, includes theme modes, detects the user's preferred language, and allows users to switch between languages.",
-            "image": {
-                "src": "./images/lucky_shrub.jpg",
-                "alt": "screenshot of Lucky Shrub web page"
-            },
-            "tools": ["HTML", "CSS", "JavaScript"],
-            "links": {
-                "demo": "https://mazenlavey.github.io/lucky-shrub/",
-                "github": "https://github.com/mazenLavey/lucky-shrub"
-            },
-            "authorCredits": null
-        },
-        "ru": {
-            "title": "Lucky Shrub",
-            "description": "Этот веб-сайт является шаблоном для небольшого местного бизнеса, который представляет краткое описание о владельцах, их услуги, проекты и способы связи с ними. Веб-сайт полностью адаптивен, имеет режимы тем, определяет наиболее используемый язык пользователя и позволяет выбирать между языками",
-            "image": {
-                "src": "./images/lucky_shrub.jpg",
-                "alt": "screenshot of Lucky Shrub web page"
-            },
-            "tools": ["HTML", "CSS", "JavaScript"],
-            "links": {
-                "demo": "https://mazenlavey.github.io/lucky-shrub/",
-                "github": "https://github.com/mazenLavey/lucky-shrub"
-            },
-            "authorCredits": null
         }
     }
 ]

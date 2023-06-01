@@ -1,4 +1,3 @@
-
 .wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -15,7 +14,7 @@
 
 .images {
     position: relative;
-    height: fit-content;
+    aspect-ratio: 5 / 3;
     border-radius: 8px;
     box-shadow: 0px 4px 11px 0px var(--shadow-color);
     overflow: hidden;
@@ -25,7 +24,7 @@
     display: none !important;
 }
 
-.images > img {
+.images>img {
     width: 100%;
 }
 
@@ -36,12 +35,12 @@
     gap: 10px;
 }
 
-.info > h3 {
+.info>h3 {
     text-transform: capitalize;
     color: var(--font-color);
 }
 
-.info > p {
+.info>p {
     text-align: justify;
     line-height: 1.4;
     font-size: var(--font-300);
@@ -49,22 +48,22 @@
     white-space: break-spaces;
 }
 
-.info > ul > li {
+.info>ul>li {
     font-size: var(--font-400);
     color: var(--font-color);
     margin-bottom: 5px;
 }
 
-.info > ul > li > svg {
+.info>ul>li>svg {
     padding-right: 10px;
 }
 
-.tools > h4 {
+.tools>h4 {
     text-transform: capitalize;
     color: var(--font-color);
 }
 
-.tools > ul {
+.tools>ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -72,7 +71,7 @@
     margin-top: 10px;
 }
 
-.tools > ul > li {
+.tools>ul>li {
     font-size: var(--font-300);
 }
 
